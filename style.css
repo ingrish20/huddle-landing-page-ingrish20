@@ -1,19 +1,71 @@
 body {
+    margin: 0; 
+    padding: 0;
+    
+
+}
+
+.container1 {
     background-image: url("./images/bg-desktop.svg");
     background-color: hsl(257, 40%, 49%);
-
-}
-
-h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    color: white;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    color: whitesmoke;
+    padding: 50px;
     
 }
 
+    #imageLogo {
+        width: 200px; 
+}
+
+.seccion1 {
+    font-family: 'Open Sans', sans-serif;
+    width: 30%;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    
+}
+
+#article1 {
+    color: white;
+    font-weight: 400;
+}
+
+#article2 {
+    color: whitesmoke;
+    font-weight: 600;
+  
+    
+}
+
+#button1 {
+    border-radius: 25px;
+    background-color: hsl(300, 69%, 71%);
+    padding: 10px 25px;
+    border-style: none;
+
+}
+
+#button1:hover {
+    background-color: rgb(206, 154, 212);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  #icons {
+    position: absolute;
+    right: 5%;
+    color: white;
+    
+  }
+
+  #icon2 {
+    color: rgb(210, 104, 212);
+  }
 
